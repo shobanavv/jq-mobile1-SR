@@ -1,0 +1,111 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>jQuery Mobile ex04</title>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+<style>
+    select {
+        font-size: 18px;
+    }
+</style>
+</head> 
+<body>
+    <div data-role = "page">
+    <div data-role = "header" data-position = "fixed" data-theme = "e">
+    <h1>
+       First page
+    </h1>
+    </div>
+    <div data-role = "content">
+        <!--Ex6.6 -->
+       <form action="">
+       <fieldset data-role = "controlgroup">
+            <label for="cakes">Cakes:</label>
+            <select name="cakes" id="cakes" data-native-menu = "false">
+                <option value="butter-cream">Butter cream</option>
+                <option value="german-chocolate">German chocolate</option>
+                <option value="red-velvet"> Red Velvet</option>
+            </select>
+            <select name="cakes1" id="cakes1" data-native-menu = "false">
+                <option value="butter-cream1">Butter cream1</option>
+                <option value="german-chocolate1">German chocolate1</option>
+                <option value="red-velvet1"> Red Velvet1</option>
+            </select>
+            <select name="cakes2" id="cakes2" data-native-menu = "false">
+                <option value="butter-cream2">Butter cream2</option>
+                <option value="german-chocolate2">German2 chocolate</option>
+                <option value="red-velvet2"> Red Velvet2</option>
+            </select>
+            </fieldset>
+            <label for="rockband" class ="select">Rock band:</label>
+            <select name = "rockband" id = "rockband" data-native-menu = "false" multiple = "true" > <!-- multiple = "true" for multiselect options-->
+                <option data-placeholder = "true">Pick a band</option> <!-- if you add value to option it will be clickable. -->
+                <option value="rockband1">Rock band 1</option>
+                <option value="rockband2">Rock band 2</option>
+                <option value="rockband3">Rock band3</option>
+            </select>
+       </form>
+
+
+    <!-- 
+       <a href = "#" data-role = "button" data-icon = "refresh" data-transition = "pop">Refresh</a>
+       <div data-role = "fieldcontain">
+       <label for="name">Name:</label>
+       <input name = "name" type="text"/>
+       <label for="name">Tel</label>
+       <input name = "name" type="tel"/>
+       <label for="name">Email</label>
+       <input name = "name" type="email"/>
+       </div>
+       <form method = "post"action="ex-1.1.html" data-ajax = "true">
+       <label for="name">Name:</label>
+       <input name = "name" type="text"/>
+       <label for="name">Tel</label>
+       <input name = "name" type="tel"/>
+     
+       <input name = "name" type="submit" value = "submit"/>
+       
+       <fieldset data-role = "controlgroup" >
+          <legend>Pizzza</legend>
+           <input name = "pizza" id = "item1" type="checkbox" value = "cheese" />
+            <label for="item1">cheese</label>
+           
+           <input type="checkbox" name = "pizza"  id = "item2" value="vege" />
+           <label for="item2">vege</label>
+           <label for="email">Email</label>
+           <input name = "email" type="radio"/>
+           <label for="file">file</label>
+           <input name = "file" type="file"/>
+           <label for="search">search</label>
+           <input name = "search" type="search"/>
+           <label for="slider">slider:</label>
+           <input name = "slider" type="range" value ="40" max = "100" min = "0"/>
+           
+           <ul>
+               <li><a href="#">cake</a></li>
+               <li><a href="#">parata</a></li>
+               <li><a href="#">dress</a></li>
+           </ul>
+           </fieldset>
+       </form>
+            
+    </div> 
+    <div data-role = "footer" data-position = "fixed" data-theme = "c"> 
+        <div data-role = "navbar" data-iconpos = "bottom">
+            <ul>
+                <li><a href = "#" data-icon = "alert" >1</a></li>
+                <li><a href = "#" data-icon = "check">2</a></li>
+                <li><a href = "#" data-icon = "right">3</a></li>
+            </ul>
+        </div>
+    </div>
+        -->
+    </div>
+    </div>
+</body>
+</html>
